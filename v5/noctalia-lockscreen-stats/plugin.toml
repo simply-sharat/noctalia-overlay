@@ -1,0 +1,44 @@
+id          = "sharat/noctalia-lockscreen-stats"
+name        = "Lock Screen Stats"
+version     = "1.0.0"
+description = "CPU / RAM / temperature gauges and network speeds for the lock screen"
+plugin_api  = 20
+
+[[desktop_widget]]
+id    = "lockscreen_stats"
+entry = "stats.luau"
+
+  [[desktop_widget.setting]]
+  key            = "show_cpu"
+  type           = "bool"
+  default        = true
+  label_key      = "settings.show_cpu.label"
+  description_key = "settings.show_cpu.description"
+
+  [[desktop_widget.setting]]
+  key             = "show_temp"
+  type            = "bool"
+  default         = true
+  label_key       = "settings.show_temp.label"
+  description_key = "settings.show_temp.description"
+
+  [[desktop_widget.setting]]
+  key             = "show_ram"
+  type            = "bool"
+  default         = true
+  label_key       = "settings.show_ram.label"
+  description_key = "settings.show_ram.description"
+
+  [[desktop_widget.setting]]
+  key             = "show_network"
+  type            = "bool"
+  default         = true
+  label_key       = "settings.show_network.label"
+  description_key = "settings.show_network.description"
+
+  [[desktop_widget.setting]]
+  key             = "accent"
+  type            = "color"
+  default         = "primary"
+  label_key       = "settings.accent.label"
+  description_key = "settings.accent.description"

@@ -1,0 +1,24 @@
+{
+  "settings": {
+    "show_cpu": {
+      "label": "Show CPU usage",
+      "description": "Display a CPU usage gauge."
+    },
+    "show_temp": {
+      "label": "Show CPU temperature",
+      "description": "Display a CPU temperature gauge (hidden when no sensor is available)."
+    },
+    "show_ram": {
+      "label": "Show RAM usage",
+      "description": "Display a memory usage gauge."
+    },
+    "show_network": {
+      "label": "Show network speeds",
+      "description": "Display download and upload speeds underneath the gauges."
+    },
+    "accent": {
+      "label": "Accent color",
+      "description": "Color of the gauge fills."
+    }
+  }
+}

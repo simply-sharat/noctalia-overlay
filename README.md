@@ -4,6 +4,11 @@ Custom patches for the [noctalia-shell](https://github.com/soramanew/noctalia) Q
 shell, stored as a small overlay you can re-apply after a machine switch or a
 package upgrade.
 
+> **Noctalia v5:** v5 is a ground-up C++ rewrite and no longer uses
+> Quickshell/QML, so the QML overlay below only applies to the v4 shell. For v5
+> the lock-screen stats are recreated as a plugin — no patched shell needed:
+> see [`v5/noctalia-lockscreen-stats/`](v5/noctalia-lockscreen-stats/README.md).
+
 ## What this changes
 
 On the lock screen, above the password panel, adds live system stats:
